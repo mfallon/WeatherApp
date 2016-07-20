@@ -1,7 +1,11 @@
-/node_modules
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+.sass-cache
+*.swp
 bundle.js
 npm-debug.log
-
-# IntelliJ
-*.iml
-/.idea
+logs/*
